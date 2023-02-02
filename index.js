@@ -9,21 +9,21 @@ let sumMult = +twoNumbers[0] * +twoNumbers[1];
 let sumDiv = +twoNumbers[0] / +twoNumbers[1];
 
 while(arr !== "+" && arr !== "-" && arr !== "/" && arr !== "*" && arr !== " ") {
-    console.log("Sorry, you did not enter any of the options", arr);
+    alert("Sorry, you did not enter any of the options", arr);
     arr = prompt("Choice what you need (+)(-)(/)(*)?");
 } 
 
 if(arr === "+") {
-    console.log(`${twoNumbers[0]} + ${twoNumbers[1]} = ${sumAdd}`);
+    alert(`${twoNumbers[0]} + ${twoNumbers[1]} = ${sumAdd}`);
 }
 else  if(arr === "-") {
-    console.log(`${twoNumbers[0]} - ${twoNumbers[1]} = ${sumSub}`);
+    alert(`${twoNumbers[0]} - ${twoNumbers[1]} = ${sumSub}`);
 }
 else  if(arr === "*") {
-    console.log(`${twoNumbers[0]} * ${twoNumbers[1]} = ${sumMult}`);
+    alert(`${twoNumbers[0]} * ${twoNumbers[1]} = ${sumMult}`);
 }
 else  if(arr === "/") {
-    console.log(`${twoNumbers[0]} / ${twoNumbers[1]} = ${sumDiv}`);
+    alert(`${twoNumbers[0]} / ${twoNumbers[1]} = ${sumDiv}`);
 }
 
 
