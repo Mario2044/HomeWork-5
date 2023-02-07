@@ -1,8 +1,6 @@
 let arr = prompt("Choice what you need (+)(-)(/)(*)?");
 let twoNum = prompt("Write two numbers separated by commas.");
 let twoNumbers = twoNum.split(',');
-let numOne = twoNumbers[0];
-let numTwo = twoNumbers[1];
 let sumAdd = +twoNumbers[0] + +twoNumbers[1];
 let sumSub = +twoNumbers[0] - +twoNumbers[1];
 let sumMult = +twoNumbers[0] * +twoNumbers[1];
